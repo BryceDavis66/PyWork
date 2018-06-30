@@ -17,7 +17,7 @@ def find_in_file(f):
 
 
 if pin in pins.values():
-    fruit = input("Enter fruit:   my cock iS NOT a freestyle x 4!44!!! ")
+    fruit = input("Enter fruit:")
     print(find_in_file(fruit))
 else:
     print("Incorrect pin!")
