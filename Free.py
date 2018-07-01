@@ -1,4 +1,23 @@
-mystring = 'Hello World'
-print(mystring + "100")
-print(len(mystring))
-print(type(mystring))
+x = b'yeehaw'
+print(x)
+print(type(x))
+print(str(10.09))
+array1 = ["happy", "sad", "gay", "cool", "C00cky!", "cool", "cool"]
+print(array1[1: 3])
+array1.append("Lovely")
+array1.append("User-centric")
+print(array1[-1])
+print(array1[-2])
+array1.append("cool")
+print(array1.count("cool"))
+x = array1.count("cool")
+print(max(array1))
+print(min(array1))
+print(array1)
+array1.reverse()
+print(array1)
+array1.sort()
+print(array1)
+for d in range(0, x):
+    array1.remove("cool")
+print(array1)

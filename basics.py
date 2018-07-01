@@ -9,7 +9,9 @@ pin = int(input("Enter your pin: "))
 def find_in_file(f):
     myfile = open("sample.txt")
     fruits = myfile.read()
+    print(fruits)
     fruits = fruits.splitlines()
+    print(fruits)
     if f in fruits:
         return "That fruit is in the list."
     else:
@@ -17,10 +19,17 @@ def find_in_file(f):
 
 
 if pin in pins.values():
+<<<<<<< HEAD
     fruit = input("Enter fruit:")
+=======
+    fruit = input("Enter fruit: ")
+>>>>>>> master
     print(find_in_file(fruit))
 else:
     print("Incorrect pin!")
     print("This info can be accessed only by: ")
     for key in pins.keys():
         print(key)
+
+for x in address:
+    print(x)
