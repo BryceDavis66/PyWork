@@ -1,0 +1,10 @@
+SELECT TOP (6)
+  [RowNumber]
+      , [Customer ID]
+      , [Name]
+      , [Surname]
+      , [Gender]
+      , [Age]
+      , [Date Joined]
+      , [Balance]
+FROM [PracticeDatabase1].[dbo].[RAW_BankCustomerDemo_20180416]
