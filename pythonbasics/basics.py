@@ -19,11 +19,7 @@ def find_in_file(f):
 
 
 if pin in pins.values():
-<<<<<<< HEAD
     fruit = input("Enter fruit:")
-=======
-    fruit = input("Enter fruit: ")
->>>>>>> master
     print(find_in_file(fruit))
 else:
     print("Incorrect pin!")
